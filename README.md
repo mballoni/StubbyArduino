@@ -1,4 +1,4 @@
-#Stubby Arduino software
+# Stubby Arduino software
 
 Arduino based source code for the [stubby project](https://hackaday.io/project/770-stubby-the-teaching-hexapod).
 
@@ -8,7 +8,7 @@ Many of the files were removed and replaced for arduino specific for the describ
 
 Recommended using PlatformIO as a IDE
 
-##Hardware
+## Hardware
 
 1. 2x [Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface - PCA9685](https://www.adafruit.com/product/815) also can be found as a cheaper chinese on [Aliexpress](https://www.aliexpress.com/item/Smart-Electronics-PCA9685-16-Channel-12-bit-PWM-Servo-Driver-I2C-Interface-for-Arduino-Raspberry-Pi/32464046768.html?spm=2114.13010608.0.0.1lZ7kS)
 2. 1x [Triple-axis Magnetometer (Compass) Board - HMC5883L](https://www.adafruit.com/product/1746). Cheaper chinese on [Aliexpress](https://www.aliexpress.com/item/GY-273-3V-5V-HMC5883L-Triple-Axis-Compass-Magnetometer-Sensor-Module-For-Arduino/32786802981.html). Note: a few years ago I bought 5 of these for 85 cents, I can't say why it was so absurdly cheap at that time
@@ -21,7 +21,7 @@ Recommended using PlatformIO as a IDE
 9. 1x [HC-SR04](https://www.banggood.com/10Pcs-HC-SR04-Ultrasonic-Ranging-Sensor-Ultrasonic-Module-For-Arduino-p-942912.html?rmmds=myorder) future improvement?
 10. 1x [Laser diode](https://www.banggood.com/10Pcs-DC-5V-5mW-650nm-6mm-Red-Copper-Head-Tube-Laser-Dot-Diode-Module-p-945069.html?rmmds=myorder) for future improvement?
 
-##Libraries
+## Libraries
 
 1. [Adafruit-PWM-Servo-Driver-Library](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library)
 2. [Adafruit_Sensor](https://github.com/adafruit/Adafruit_Sensor)
