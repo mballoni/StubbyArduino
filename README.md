@@ -1,8 +1,12 @@
 # Stubby Arduino software
 
-Arduino based source code for the [stubby project](https://hackaday.io/project/770-stubby-the-teaching-hexapod).
+Arduino based source code for the [stubby project](https://hackaday.io/project/770-stubby-the-teaching-hexapod)
 
 Original AVR code can be found [here](https://github.com/thebiguno/stubby)
+
+More detailed documentation can be found [here](http://stubby.digitalcave.ca/stubby/)
+
+STL parts are at [this repository](https://github.com/mballoni/stubby)
 
 Many of the files were removed and replaced for arduino specific for the described hardware above. I kept only the core logic for the reverse kinematics and some more like the serial protocol for calibration
 
@@ -26,3 +30,17 @@ Recommended using PlatformIO as a IDE
 1. [Adafruit-PWM-Servo-Driver-Library](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library)
 2. [Adafruit_Sensor](https://github.com/adafruit/Adafruit_Sensor)
 3. [Adafruit_HMC5883_Unified](https://github.com/adafruit/Adafruit_HMC5883_Unified)
+
+
+## TODO List
+Above there is a TODO list for the required tasks to finish this project.
+All items are ordered as its priority
+
+- [x] Initial description of the required hardware
+- [ ] Importing the minimal code for legs movement from original AVR
+- [ ] Supporting the PWM shield with the legs original code
+- [ ] Conversion the serial protocol to arduino
+- [ ] Understanding and implements compatibility with the python calibration software
+- [ ] Support the HMC5883L with the Arduino library
+- [ ] Implement remote control with the BL hardware
+- [ ] Upload some pictures?
